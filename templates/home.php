@@ -1,43 +1,43 @@
 <?php include "templates/include/vheader.php" ?>
 <div class="wrapper">
-<div id="home">
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h1 id="title"> Queen's University </h1>
-            <img src="images/ctcLogo.png" />
-        </div>
-    </div>
-</div>
-<div id="about">
-    <div class="aboutHead">
-        <h1>About</h1>
-        <div class="row">
-            <div class="col-md-12">
-                <p>
-                    Code the Change: Queen’s Chapter is a student run club on campus whose mandate is to empower
-                    computer scientists and engineers to use their technical skills for social change. We run
-                    events that let students program in small groups for non-profit organizations from within
-                    the Kingston community. Our goal is to give students the opportunity to learn more about
-                    programming and interact with other programmers while making a meaningful contribution to
-                    the community. Code the Change: Queen’s Chapter is composed of an executive team who plan,
-                    organize,and run code jams every year. At each Code Jam students can sign up in small groups or
-                    individually to work on a specific project for a social change organization. The social
-                    change organizations involved are generally based in Kingston and are in need of help
-                    through either web development or mobile app design. By participating in these code jams
-                    not only do you get to improve your technical skills as a programmer, but use these skills
-                    for a greater cause.
-                </p>
+    <div id="home">
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 id="title"> Queen's University </h1>
+                <img src="images/ctcLogo.png" />
             </div>
         </div>
     </div>
-    <div class="circleHead">
-        <div class="circle">
-            <h1>The Team</h1>
+    <div id="about">
+        <div class="aboutHead">
+            <h1>About</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Code the Change: Queen’s Chapter is a student run club on campus whose mandate is to empower
+                        computer scientists and engineers to use their technical skills for social change. We run
+                        events that let students program in small groups for non-profit organizations from within
+                        the Kingston community. Our goal is to give students the opportunity to learn more about
+                        programming and interact with other programmers while making a meaningful contribution to
+                        the community. Code the Change: Queen’s Chapter is composed of an executive team who plan,
+                        organize,and run code jams every year. At each Code Jam students can sign up in small groups or
+                        individually to work on a specific project for a social change organization. The social
+                        change organizations involved are generally based in Kingston and are in need of help
+                        through either web development or mobile app design. By participating in these code jams
+                        not only do you get to improve your technical skills as a programmer, but use these skills
+                        for a greater cause.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 one">
+        <div class="circleHead">
+            <div class="circle">
+                <h1>The Team</h1>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 one">
                 <span class="text-content">
                     <span>
                         <h2>Megan Shipton</h2>
@@ -49,8 +49,8 @@
                             we are able to help this year!</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 two">
+                </div>
+                <div class="col-md-4 two">
                 <span class="text-content">
                     <span>
                         <h2>Alice Wang</h2>
@@ -62,8 +62,8 @@
                             keep up with the changing technology and help those in need.</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 three">
+                </div>
+                <div class="col-md-4 three">
                 <span class="text-content">
                     <span>
                         <h2>Alyssa Kim</h2>
@@ -76,10 +76,10 @@
                             a common good.</p>
                     </span>
                 </span>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 four">
+            <div class="row">
+                <div class="col-md-4 four">
                 <span class="text-content">
                     <span>
                         <h2>Harry Lewis</h2>
@@ -92,19 +92,19 @@
                             their creative and life-changing ideas to the world.</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 five">
+                </div>
+                <div class="col-md-4 five">
                 <span class="text-content">
                     <span>
                         <h2>Danny Patterson</h2>
                         <h3>President</h3>
                         <p>sdffffffffffffsdfsd
-                        sdfsdfsdfsdfsdfsd
-                        sdfsdfdsfsdfsdfsd</p>
+                            sdfsdfsdfsdfsdfsd
+                            sdfsdfdsfsdfsdfsd</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 six">
+                </div>
+                <div class="col-md-4 six">
                 <span class="text-content">
                     <span>
                         <h2>Sommer Shurbaji</h2>
@@ -116,10 +116,10 @@
                             to help make a positive change in their community.</p>
                     </span>
                 </span>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 seven">
+            <div class="row">
+                <div class="col-md-4 seven">
                 <span class="text-content">
                     <span>
                         <h2>Chris Cartwright</h2>
@@ -128,19 +128,19 @@
                             emphasis on machine learning</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 eight">
+                </div>
+                <div class="col-md-4 eight">
                 <span class="text-content">
                     <span>
                         <h2>Julie Lycklama</h2>
                         <h3>Sponsorship</h3>
                         <p>sfaffgdgfgad
-                        bsdbfgfdhghsfg
-                        gbsfgbgbgfhgshsg</p>
+                            bsdbfgfdhghsfg
+                            gbsfgbgbgfhgshsg</p>
                     </span>
                 </span>
-            </div>
-            <div class="col-md-4 nine">
+                </div>
+                <div class="col-md-4 nine">
                 <span class="text-content">
                     <span>
                         <h2>Krystina Correa</h2>
@@ -150,40 +150,40 @@
                             gbsfgbgbgfhgshsg</p>
                     </span>
                 </span>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div id="events">
-    <div class="container">
-        <h1 class="light">Events</h1>
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="light">First Event</h1>
-                <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                <p>Here we will have a nice description of the first event. It will go over what to bring
-                and what skills are going to be taught. It will talk about how this will help with the code
-                jam and what type of person it will be most beneficial to</p>
+    <div id="events">
+        <div class="container">
+            <h1 class="light">Events</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="light">First Event</h1>
+                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
+                    <p>Here we will have a nice description of the first event. It will go over what to bring
+                        and what skills are going to be taught. It will talk about how this will help with the code
+                        jam and what type of person it will be most beneficial to</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="light">Second Event</h1>
-                <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                <p>Here we will have a nice description of the first event. It will go over what to bring
-                    and what skills are going to be taught. It will talk about how this will help with the code
-                    jam and what type of person it will be most beneficial to</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="light">Second Event</h1>
+                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
+                    <p>Here we will have a nice description of the first event. It will go over what to bring
+                        and what skills are going to be taught. It will talk about how this will help with the code
+                        jam and what type of person it will be most beneficial to</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="light">Third Event</h1>
-                <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                <p>Here we will have a nice description of the first event. It will go over what to bring
-                    and what skills are going to be taught. It will talk about how this will help with the code
-                    jam and what type of person it will be most beneficial to</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="light">Third Event</h1>
+                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
+                    <p>Here we will have a nice description of the first event. It will go over what to bring
+                        and what skills are going to be taught. It will talk about how this will help with the code
+                        jam and what type of person it will be most beneficial to</p>
+                </div>
             </div>
-        </div>
         </div>
     </div>
 
@@ -240,22 +240,22 @@
             </div> <!-- Carousel -->
 
 
-    </div>
+        </div>
 
-    <div id="sponsors">
-        <div class="container">
-            <h1 class="light">Sponsorship</h1>
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>This years sponsors</h3>
-                    <p></p>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                    <p></p>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                </div>
-                <div class="col-md-8">
+        <div id="sponsors">
+            <div class="container">
+                <h1 class="light">Sponsorship</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>This years sponsors</h3>
+                        <p></p>
+                        <img src="images/koala.jpg" height="100" width="150"/>
+                        <img src="images/koala.jpg" height="100" width="150"/>
+                        <p></p>
+                        <img src="images/koala.jpg" height="100" width="150"/>
+                        <img src="images/koala.jpg" height="100" width="150"/>
+                    </div>
+                    <div class="col-md-8">
                     <span>
                         <p>We have two levels of sponsorship for companies interested in supporting the success of Code the Change:</p>
 
@@ -269,23 +269,23 @@
                             young programming talent.</p>
                             <p>If you are interested in providing financial support and/or sending a recruiter to the Code Jam, please email us at sponsorship@queenscodethechange.com for more information. Limited sponsorships are available, and any companies interested in sending a recruiter or company representative must confirm attendance by November 30th, 2014.</p>
                     </span>
-                </div>
+                    </div>
 
+                </div>
             </div>
         </div>
+
+        <div id="register">
+            <?php //include "project.php" ?>
+        </div>
+
+        <div id="contact">
+
+            <?php include "contact.php" ?>
+        </div>
+
+
     </div>
-
-    <div id="register">
-        <?php //include "project.php" ?>
-    </div>
-
-    <div id="contact">
-
-        <?php include "contact.php" ?>
-    </div>
-
-
-</div>
 </div>
 
 <?php include "templates/include/footer.php" ?>

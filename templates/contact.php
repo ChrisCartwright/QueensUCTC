@@ -1,3 +1,5 @@
+<h1>Contact Us</h1>
+
 <form action="send.php" method="post">
 
     <ul>
@@ -19,7 +21,7 @@
 
         <li>
             <label for="message">Message</label>
-            <textarea name="message" id="message" placeholder="Message" required maxlength="10000" style="height: 30em;"></textarea>
+            <textarea name="message" id="message" placeholder="Message" required maxlength="10000" style="height: 20em;"></textarea>
         </li>
 
     </ul>
