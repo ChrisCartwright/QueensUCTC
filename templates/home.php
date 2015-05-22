@@ -98,9 +98,12 @@
                     <span>
                         <h2>Danny Patterson</h2>
                         <h3>President</h3>
-                        <p>sdffffffffffffsdfsd
-                            sdfsdfsdfsdfsdfsd
-                            sdfsdfdsfsdfsdfsd</p>
+                        <p>I'm currently in my 3rd year of Electrical Engineering, and in the past 4 years I
+                            have taught myself how to code. Doing so has shown me how accessible the world is
+                            through coding, and how Code the Change is tapping into this reality by bringing
+                            coding to people that would otherwise not have a chance to use it. It is my hope
+                            that an event like Code the Change will inspire people to start coding, and bring
+                            their creative and life-changing ideas to the world</p>
                     </span>
                 </span>
                 </div>
@@ -202,16 +205,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    dfgdfgdf
-                                </div>
-                                <div class="col-md-8">
-                                    dfgdfgdfdfsfdfds
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="carousel-caption">
 
                         </div>
