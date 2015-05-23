@@ -279,11 +279,10 @@ span.text-content span h3 {
 
 .jumbotron {
 
-    background-image: url(images/queens.jpg);
+    background-image: url(images/Alt-Cover.jpg);
     background-attachment: fixed;
-    background-position: 0% 30%;
     background-size: cover;
-    min-height: 500px;
+    min-height: 100vh;
 }
 
 #footer {
@@ -292,6 +291,12 @@ span.text-content span h3 {
     margin-left: 0px;
     padding: 20px;
     font-size: .8em;
+}
+
+#logo{
+bottom:15vh;
+left:10vw;
+position:fixed;
 }
 
 span h2 {

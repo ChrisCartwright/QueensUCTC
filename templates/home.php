@@ -2,9 +2,8 @@
 <div class="wrapper">
     <div id="home">
         <div class="jumbotron">
-            <div class="container text-center">
-                <h1 id="title"> Queen's University </h1>
-                <img src="images/ctcLogo.png" />
+            <div class="container">
+               <image id="logo" src="images/ctcLogo.png">
             </div>
         </div>
     </div>
