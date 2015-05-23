@@ -348,95 +348,6 @@ h2 a {
     padding:0;
 }
 
-form ul {
-    list-style: none;
-    margin: 0 auto;
-}
-
-form li {
-    margin: 5px;
-}
-
-label {
-    vertical-align: middle;
-    display: block;
-    float: left;
-    clear: left;
-    text-align: right;
-    width: 30%;
-    padding: 0em 0 0 0;
-    margin: .15em .5em 0 0;
-}
-
-
-input, select, textarea {
-    display: block;
-    margin: 0;
-    padding: .4em;
-    width: 40%;
-}
-
-
-input {
-    font-size: .9em;
-}
-
-select {
-    padding: 0;
-    margin-bottom: 0;
-    position: relative;
-    top: 0.4em;
-}
-
-textarea {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .9em;
-    height: 5em;
-    line-height: 1.5em;
-}
-
-
-
-
-form *:focus {
-    border: 2px solid black;
-    outline: none;
-}
-
-input:valid, textarea:valid {
-    background: #efe;
-}
-
-
-.buttons {
-    text-align: center;
-    margin: 20px 0 0 0;
-}
-
-input[type="submit"] {
-    display: inline;
-    margin: 0 20px;
-    width: 12em;
-    padding: 10px;
-    border: 2px solid black;
-    color: black;
-    background: #BCBDBD;
-    font-weight: bold;
-    -webkit-appearance: none;
-}
-
-input[type="submit"]:hover {
-    cursor: pointer;
-    background: #454545;
-    color: black;
-}
-
-input[type="submit"]:active {
-    background: #eee;
-    -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
-    -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
-    box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
-}
 
 
 table {
@@ -725,91 +636,6 @@ NAV BAR boxes
 }
 
 
-/*
-*
-*	CSSG Collections: Forms
-*	designed and coded by Alen Grakalic (http://cssglobe.com)
-*	brought to you by Templatica (http://templatica.com)
-*
-*/
-
-body{
-    background:#f8f8f8;
-    font:13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
-    color:#333;
-    line-height:160%;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-
-h1{
-    font-size:200%;
-    font-weight:normal;
-}
-h2, h3, h4, h5, h6{
-    font-weight:normal;
-    margin:1em 0;
-}
-h2{
-    font-size:160%;
-}
-h3{
-    font-size:140%;
-}
-h4{
-    font-size:120%;
-}
-
-a{
-    text-decoration:none;
-    color:#f30;
-}
-a:hover{
-    color:#999;
-}
-table, input, textarea, select, li{
-    font:100% Trebuchet MS, Arial, Helvetica, Sans-Serif;
-    line-height:160%;
-    color:#333;
-}
-p, blockquote, ul, ol, form{
-    margin:1em 0;
-}
-blockquote{
-}
-img{
-    border:none;
-}
-hr{
-    display:none;
-}
-table{
-    margin:1em 0;
-    width:100%;
-    border-collapse:collapse;
-}
-th, td{
-    padding:2px 5px;
-}
-th{
-    text-align:left;
-}
-li{
-    display:list-item;
-}
-
-#container{
-    margin:0 auto;
-    background:#fff;
-    width:600px;
-    padding:20px 40px;
-    text-align:left;
-}
-
-
-
-
 #form2{
     margin-top: 150px;
     display: inline-block;
@@ -833,23 +659,79 @@ li{
     padding-bottom:1em;
 }
 #form2 legend{display:none;}
-#form2 p{margin:.5em 20px;}
+
+#form2 p{
+    margin:.5em 20px;
+    text-align: left;
+}
 #form2 label{
     display: block;
     margin-left: 0;
-    text-align: center;
+    text-align: left;
 }
 #form2 input, #form2 textarea{
-    width:75%;
+    width:100%;
     border:1px solid #111;
     background-color: #BCBDBD;
     color:#454545;
 }
 #form2 textarea{
-    height:125px;
+    height: 10vh;
     overflow:auto;
 }
 
+#form2 input {
+    height: 4vh;
+}
+
+
+#form1{
+    margin-top: 150px;
+    display: inline-block;
+    color:#fff;
+    width:40vw;
+    text-align: center;
+}
+#form1 h3{
+    margin:0;
+    background-color: #8dc63f;
+    color: #454545;
+    font-size:20px;
+    border-bottom:none;
+}
+#form1 h3 span{
+    display:block;
+    padding:10px 20px;
+}
+#form1 fieldset{
+    background:#454545;
+    padding-bottom:1em;
+}
+#form1 legend{display:none;}
+
+#form1 p{
+    margin:.5em 20px;
+    text-align: left;
+}
+#form1 label{
+    display: block;
+    margin-left: 0;
+    text-align: left;
+}
+#form1 input, #form1 textarea{
+    width:100%;
+    border:1px solid #111;
+    background-color: #BCBDBD;
+    color:#454545;
+}
+#form1 textarea{
+    height: 10vh;
+    overflow:auto;
+}
+
+#form1 input {
+    height: 4vh;
+}
 
 
 
