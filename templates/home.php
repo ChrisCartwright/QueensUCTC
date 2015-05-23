@@ -270,7 +270,7 @@
         </div>
 
         <div id="register">
-            <?php //include "project.php" ?>
+            <?php include "project.php" ?>
         </div>
 
         <div id="contact">

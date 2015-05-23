@@ -1,34 +1,27 @@
 <h1>Contact Us</h1>
 
-<form action="send.php" method="post">
-
-    <ul>
-
-        <li>
+<form id="form2" action="send.php" method="post">
+    <h3><span>Contact Us</span></h3>
+    <fieldset><legend>Contact form</legend>
+        <p class="first">
             <label for="firstName">First Name</label>
             <input type="text" name="firstName" id="firstName" placeholder="First Name" required maxlength="25" />
-        </li>
-
-        <li>
+        </p>
+        <p>
             <label for="lastName">Last Name</label>
             <input type="text" name="lastName" id="lastName" placeholder="Last Name" required maxlength="25" />
-        </li>
-
-        <li>
-            <label for="email">Email Address</label>
+        </p>
+        <p class="third">
+            <label for="email">Email</label>
             <input type="text" name="email" id="email" placeholder="Email" required maxlength="40" />
-        </li>
-
-        <li>
-            <label for="message">Message</label>
+        </p>
+        <p>
+            <label id="Lblmessage" for="message">Message</label>
             <textarea name="message" id="message" placeholder="Message" required maxlength="10000" style="height: 20em;"></textarea>
-        </li>
+        </p>
 
-    </ul>
-
-    <div class="buttons">
-        <input type="submit" name="submit" value="Send" />
-
-    </div>
-
+        <div class="buttons">
+            <p class="submit"><input type="submit" name="submit" value="Send" /></p>
+        </div>
+    </fieldset>
 </form>
