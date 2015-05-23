@@ -80,11 +80,10 @@
         </div>
     </div>-->
 
-    <form id="form1" action="admin.php" method="post">
-
-<ul>
-
-    <li>
+    <form id="form2" action="admin.php" method="post">
+        <h3><span>Register</span></h3>
+        <fieldset><legend>Register form</legend>
+        <p class="first">
         <label for="project">Project Choice</label>
         <?php
             $count = 0;
@@ -109,44 +108,42 @@
             }
             echo "</select>";
         ?>
-    </li>
-
-    <li>
+        </p>
+            <p>
         <label for="firstName">First Name</label>
         <input type="text" name="firstName" id="firstName" placeholder="First Name" required maxlength="25" />
-    </li>
+        </p>
+            <p>
 
-    <li>
+
         <label for="lastName">Last Name</label>
         <input type="text" name="lastName" id="lastName" placeholder="Last Name" required maxlength="25" />
-    </li>
+</p>
+            <p>
 
-    <li>
+
         <label for="program">Engineering Discipline / Program</label>
         <input type="text" name="program" id="program" placeholder="Program" required maxlength="25" />
-    </li>
+            </p>
+            <p>
 
-    <li>
+
         <label for="year">Year of Study</label>
         <input type="text" name="year" id="year" placeholder="Year" required maxlength="5" />
-    </li>
-
-    <li>
+            </p>
+            <p>
         <label for="email">Email Address (@queensu.ca)</label>
         <input type="text" name="email" id="email" placeholder="Email" required maxlength="40" />
-    </li>
+            </p>
+            <p>
 
-    <li>
+
         <label for="skills">Skills / Things to learn</label>
         <textarea name="skills" id="skills" placeholder="Skills or Things you want to learn" required maxlength="255" style="height: 30em;"></textarea>
-    </li>
+            </p>
+        <p class="submit"><input type="submit" name="submit" value="submit" /></p>
 
-</ul>
 
-    <div class="buttons">
-        <input type="submit" name="submit" value="submit" />
-
-    </div>
-
+</fieldset>
 </form>
 
