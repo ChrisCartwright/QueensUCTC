@@ -19,7 +19,7 @@
 <div class="vcontainer">
     <ul class="vnavbar">
 
-        <li class="active"><a href="#home"><i class="fa fa-home fa-2x"><div class="home-tri"></div><div class="code-nav"><p>Home</p></div></i><span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#home"><i class="fa fa-home fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Home</p></div></i><span class="sr-only">(current)</span></a></li>
         <li><a href="#about"><i class="fa fa-info-circle fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Info</p></div></i></a></li>
         <li><a href="#events"><i class="fa fa-calendar fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Events</p></div></i></a></li>
         <li><a href="#past"><i class="fa fa-code fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Past Projects</p></div></i></a></li>
