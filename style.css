@@ -9,7 +9,7 @@ body {
 
 i {
 
-    color: #95210C;
+    color: rgba(210, 94,145,1)
 	cursor: pointer; 
 
 }
@@ -36,8 +36,15 @@ ul {
     min-height: 100vh;
     height: auto;
     color: #454545;
-    background-color: #BCBDBD;
     font-size: large;
+    background: #97210c;
+    background: -moz-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #97210c), color-stop(4%, #97210c), color-stop(26%, #bc3b24), color-stop(47%, #d85c46), color-stop(67%, #f7856e), color-stop(87%, #ffae9e), color-stop(100%, #ffae9e));
+    background: -webkit-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -o-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -ms-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97210c', endColorstr='#ffae9e', GradientType=1 );
 }
 
 .aboutHead h1 {
@@ -52,7 +59,14 @@ h1 span{
     padding: 0px;
     height: 100vh;
     width:100%;
-    background-color: #BCBDBD;
+    background: #7d0a3e;
+    background: -moz-linear-gradient(top, #7d0a3e 0%, #7d0a3e 3%, #9c1d56 19%, #b53c72 41%, #d15e92 69%, #e38fb4 95%, #e38fb4 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #7d0a3e), color-stop(3%, #7d0a3e), color-stop(19%, #9c1d56), color-stop(41%, #b53c72), color-stop(69%, #d15e92), color-stop(95%, #e38fb4), color-stop(100%, #e38fb4));
+    background: -webkit-linear-gradient(top, #7d0a3e 0%, #7d0a3e 3%, #9c1d56 19%, #b53c72 41%, #d15e92 69%, #e38fb4 95%, #e38fb4 100%);
+    background: -o-linear-gradient(top, #7d0a3e 0%, #7d0a3e 3%, #9c1d56 19%, #b53c72 41%, #d15e92 69%, #e38fb4 95%, #e38fb4 100%);
+    background: -ms-linear-gradient(top, #7d0a3e 0%, #7d0a3e 3%, #9c1d56 19%, #b53c72 41%, #d15e92 69%, #e38fb4 95%, #e38fb4 100%);
+    background: linear-gradient(to bottom, #7d0a3e 0%, #7d0a3e 3%, #9c1d56 19%, #b53c72 41%, #d15e92 69%, #e38fb4 95%, #e38fb4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d0a3e', endColorstr='#e38fb4', GradientType=0 );
 }
 
 
@@ -82,8 +96,16 @@ h1 span{
 #contact {
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
-    background-color: #BCBDBD;
+    height: auto;
+    min-height: 100vh;
+    background: #97210c;
+    background: -moz-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #97210c), color-stop(4%, #97210c), color-stop(26%, #bc3b24), color-stop(47%, #d85c46), color-stop(67%, #f7856e), color-stop(87%, #ffae9e), color-stop(100%, #ffae9e));
+    background: -webkit-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -o-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: -ms-linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    background: linear-gradient(45deg, #97210c 0%, #97210c 4%, #bc3b24 26%, #d85c46 47%, #f7856e 67%, #ffae9e 87%, #ffae9e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97210c', endColorstr='#ffae9e', GradientType=1 );
 }
 
 #events .container {
@@ -93,8 +115,15 @@ h1 span{
     height: auto;
     padding: 50px;
     width:100%;
-    background-color: #454545;
     text-align: center;
+    background: #caf095;
+    background: -moz-linear-gradient(-45deg, #caf095 0%, #caf095 10%, #b1e366 32%, #8dc43f 53%, #71ab20 70%, #54870c 94%, #54870c 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #caf095), color-stop(10%, #caf095), color-stop(32%, #b1e366), color-stop(53%, #8dc43f), color-stop(70%, #71ab20), color-stop(94%, #54870c), color-stop(100%, #54870c));
+    background: -webkit-linear-gradient(-45deg, #caf095 0%, #caf095 10%, #b1e366 32%, #8dc43f 53%, #71ab20 70%, #54870c 94%, #54870c 100%);
+    background: -o-linear-gradient(-45deg, #caf095 0%, #caf095 10%, #b1e366 32%, #8dc43f 53%, #71ab20 70%, #54870c 94%, #54870c 100%);
+    background: -ms-linear-gradient(-45deg, #caf095 0%, #caf095 10%, #b1e366 32%, #8dc43f 53%, #71ab20 70%, #54870c 94%, #54870c 100%);
+    background: linear-gradient(135deg, #caf095 0%, #caf095 10%, #b1e366 32%, #8dc43f 53%, #71ab20 70%, #54870c 94%, #54870c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caf095', endColorstr='#54870c', GradientType=1 );
 }
 
 #events h1 {
@@ -106,7 +135,14 @@ h1 span{
     padding: 25px 50px 50px 50px;
     height: 100vh;
     width:100%;
-    background-color: #454545;
+    background: #80cf9c;
+    background: -moz-radial-gradient(center, ellipse cover, #80cf9c 0%, #80cf9c 3%, #51b371 22%, #329c55 38%, #19873e 83%, #0a6b2a 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #80cf9c), color-stop(3%, #80cf9c), color-stop(22%, #51b371), color-stop(38%, #329c55), color-stop(83%, #19873e), color-stop(100%, #0a6b2a));
+    background: -webkit-radial-gradient(center, ellipse cover, #80cf9c 0%, #80cf9c 3%, #51b371 22%, #329c55 38%, #19873e 83%, #0a6b2a 100%);
+    background: -o-radial-gradient(center, ellipse cover, #80cf9c 0%, #80cf9c 3%, #51b371 22%, #329c55 38%, #19873e 83%, #0a6b2a 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #80cf9c 0%, #80cf9c 3%, #51b371 22%, #329c55 38%, #19873e 83%, #0a6b2a 100%);
+    background: radial-gradient(ellipse at center, #80cf9c 0%, #80cf9c 3%, #51b371 22%, #329c55 38%, #19873e 83%, #0a6b2a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80cf9c', endColorstr='#0a6b2a', GradientType=1 );
 }
 #sponsors h1 {
     text-align: left;
@@ -287,19 +323,17 @@ span.text-content span h3 {
     position: fixed;
     width: 65px;
     height: 100%;
-  background: rgba(69,69,69,1);
-  background: -moz-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(69,69,69,1)), color-stop(51%, rgba(112,112,112,1)), color-stop(100%, rgba(69,69,69,1)));
-background: -webkit-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
-background: -o-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
-background: -ms-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
-background: linear-gradient(to right, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#454545', GradientType=1 );
+    background: rgba(25,135,62,1);
+    background: -moz-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,135,62,1)), color-stop(50%, rgba(81,179,113,1)), color-stop(100%, rgba(25,133,61,1)));
+    background: -webkit-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
+    background: -o-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
+    background: -ms-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
+    background: linear-gradient(to right, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19873e', endColorstr='#19853d', GradientType=1 );
     text-align: center;
     z-index: 5;
-	-webkit-box-shadow: inset -16px 2px 11px -11px rgba(38,35,38,0.65);
--moz-box-shadow: inset -16px 2px 11px -11px rgba(38,35,38,0.65);
-box-shadow: inset -16px 2px 11px -11px rgba(38,35,38,0.65);
+
 }
 
 .vnavbar a {
@@ -507,7 +541,7 @@ NAV BAR boxes
 
 
 #form2{
-    margin-top: 150px;
+    margin: 100px 0 100px 0;
     display: inline-block;
     color:#fff;
     width:40vw;
