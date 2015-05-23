@@ -4,6 +4,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #BCBDBD;
+	overflow-x:hidden;
 }
 
 i {
@@ -407,6 +408,7 @@ NAV BAR boxes
 }
 
 .code-nav {
+
     font-size: 75%;
     color: #FFFFF;
     position: fixed;
@@ -415,10 +417,12 @@ NAV BAR boxes
     height: 30px;
     background-color: #454545;
     display: none;
+	border-radius: 10px;
 }
 
 .code-nav p {
     margin-top: 5px;
+	font-family: Arial;
 }
 
 
@@ -445,7 +449,7 @@ NAV BAR boxes
 }
 
 
-.fa-code:hover .code-trii{
+.fa-code:hover .code-tri{
     display: inline-block;
 }
 .fa-code:hover .code-nav{
