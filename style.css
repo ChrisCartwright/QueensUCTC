@@ -10,6 +10,7 @@ i {
     color: #FFFFFF;
 }
 
+
 #myCarousel {
     height: 100%;
 }
@@ -572,6 +573,7 @@ NAV BAR boxes
 }
 
 /*Scroll bar*/
+
 ::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
