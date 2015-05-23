@@ -9,9 +9,30 @@
     </div>
     <div id="about">
         <div class="aboutHead">
-            <h1>About</h1>
             <div class="row">
-                <div class="col-md-12">
+                <h1>About<span>.</span></h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Code the Change: Queen’s Chapter is a student run club on campus whose mandate is to empower
+                        computer scientists and engineers to use their technical skills for social change. We run
+                        events that let students program in small groups for non-profit organizations from within
+                        the Kingston community. Our goal is to give students the opportunity to learn more about
+                        programming and interact with other programmers while making a meaningful contribution to
+                        the community. Code the Change: Queen’s Chapter is composed of an executive team who plan,
+                        organize,and run code jams every year. At each Code Jam students can sign up in small groups or
+                        individually to work on a specific project for a social change organization. The social
+                        change organizations involved are generally based in Kingston and are in need of help
+                        through either web development or mobile app design. By participating in these code jams
+                        not only do you get to improve your technical skills as a programmer, but use these skills
+                        for a greater cause.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
                     <p>
                         Code the Change: Queen’s Chapter is a student run club on campus whose mandate is to empower
                         computer scientists and engineers to use their technical skills for social change. We run
@@ -29,11 +50,15 @@
                 </div>
             </div>
         </div>
-        <div class="circleHead">
+    </div>
+        <!--<div class="circleHead">
             <div class="circle">
                 <h1>The Team</h1>
             </div>
         </div>
+        <div class="team-head">
+            <h1>The Team</h1>
+        </div>-->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 one">
@@ -155,13 +180,13 @@
                 </div>
             </div>
         </div>
-    </div>
+
     <div id="events">
         <div class="container">
-            <h1 class="light">Events</h1>
+            <h1 class="light">Events<span>.</span></h1>
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="light">First Event</h1>
+                    <h2 class="light">First Event</h2>
                     <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
                     <p>Here we will have a nice description of the first event. It will go over what to bring
                         and what skills are going to be taught. It will talk about how this will help with the code
@@ -170,7 +195,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="light">Second Event</h1>
+                    <h2 class="light">Second Event</h2>
                     <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
                     <p>Here we will have a nice description of the first event. It will go over what to bring
                         and what skills are going to be taught. It will talk about how this will help with the code
@@ -179,7 +204,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="light">Third Event</h1>
+                    <h2 class="light">Third Event</h2>
                     <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
                     <p>Here we will have a nice description of the first event. It will go over what to bring
                         and what skills are going to be taught. It will talk about how this will help with the code
@@ -237,7 +262,7 @@
 
         <div id="sponsors">
             <div class="container">
-                <h1 class="light">Sponsorship</h1>
+                <h1 class="light">Sponsorship<span>.</span></h1>
                 <div class="row">
                     <div class="col-md-4">
                         <h3>This years sponsors</h3>

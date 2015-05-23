@@ -8,7 +8,7 @@ body {
 }
 
 i {
-    color: #FFFFFF;
+    color: #95210c;
 }
 
 
@@ -29,13 +29,20 @@ ul {
 .aboutHead {
     position: relative;
     padding: 25px 50px 50px 50px;
-    margin: 0;
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     height: auto;
     color: #454545;
     background-color: #BCBDBD;
     font-size: large;
+}
+
+.aboutHead h1 {
+    float: left;
+    padding: 0px 0 30px 30px;
+}
+h1 span{
+    color: #8dc63f;
 }
 
 #past .container {
@@ -87,14 +94,25 @@ ul {
     text-align: center;
 }
 
+#events h1 {
+    float:left;
+}
+
 #sponsors .container {
+
     padding: 25px 50px 50px 50px;
     height: 100vh;
     width:100%;
     background-color: #454545;
 }
+#sponsors h1 {
+    text-align: left;
+}
 
 
+.team-head {
+    height: 10vh;
+}
 .circle h1 {
     font-size: 500%;
     color: #BCBDBD;
@@ -288,7 +306,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .jumbotron {
 
-    background-image: url(images/Alt-Cover.jpg);
+    background-image:url("images/Alt-Cover.jpg");
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
