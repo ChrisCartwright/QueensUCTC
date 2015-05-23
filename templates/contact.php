@@ -1,4 +1,4 @@
-<h1>Contact Us</h1>
+
 
 <form id="form2" action="send.php" method="post">
     <h3><span>Contact Us</span></h3>
@@ -20,8 +20,7 @@
             <textarea name="message" id="message" placeholder="Message" required maxlength="10000" style="height: 20em;"></textarea>
         </p>
 
-        <div class="buttons">
-            <p class="submit"><input type="submit" name="submit" value="Send" /></p>
-        </div>
+        <p class="submit"><input type="submit" name="submit" value="Send" /></p>
+
     </fieldset>
 </form>
