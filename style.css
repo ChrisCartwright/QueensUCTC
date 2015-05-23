@@ -804,9 +804,9 @@ li{
 #form2{
     margin-top: 150px;
     display: inline-block;
-    text-align: center;
     color:#fff;
     width:40vw;
+    text-align: center;
 }
 #form2 h3{
     margin:0;
@@ -818,7 +818,6 @@ li{
 #form2 h3 span{
     display:block;
     padding:10px 20px;
-
 }
 #form2 fieldset{
     background:#454545;
@@ -826,21 +825,22 @@ li{
 }
 #form2 legend{display:none;}
 #form2 p{margin:.5em 20px;}
-#form2 label{display:block;}
+#form2 label{
+    display: block;
+    margin-left: 0;
+    text-align: center;
+}
 #form2 input, #form2 textarea{
     width:75%;
     border:1px solid #111;
-    background-color: #
-    padding:5px 3px;
-    color:#fff;
+    background-color: #BCBDBD;
+    color:#454545;
 }
 #form2 textarea{
     height:125px;
     overflow:auto;
 }
-#form2 p.submit{
-    text-align:right;
-}
+
 
 
 
