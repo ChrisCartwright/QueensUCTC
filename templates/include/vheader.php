@@ -19,13 +19,13 @@
 <div class="vcontainer">
     <ul class="vnavbar">
 
-        <li class="active"><a href="#home"><i class="fa fa-home fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Home</p></div></i><span class="sr-only">(current)</span></a></li>
-        <li><a href="#about"><i class="fa fa-info-circle fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Info</p></div></i></a></li>
-        <li><a href="#events"><i class="fa fa-calendar fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Events</p></div></i></a></li>
-        <li><a href="#past"><i class="fa fa-code fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Past Projects</p></div></i></a></li>
-        <li><a href="#sponsors"><i class="fa fa-star fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Sponsorship</p></div></i></a></li>
-        <li><a href="#register"><i class="fa fa-pencil-square-o fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Register</p></div></i></a></li>
-        <li><a href="#contact"><i class="fa fa-envelope-o fa-2x"><div class="code-tri"></div><div class="code-nav"><p>Contact</p></div></i></a></li>
+        <li class="active"><i class="fa fa-home fa-2x" onclick="smoothScroll(document.getElementById('home'))"><div class="code-tri"></div><div class="code-nav"><p>Home</p></div></i><span class="sr-only">(current)</span></a></li>
+        <li><i class="fa fa-info-circle fa-2x" onclick="smoothScroll(document.getElementById('about'))"><div class="code-tri"></div><div class="code-nav"><p>Info</p></div></i></a></li>
+        <li><i class="fa fa-calendar fa-2x" onclick="smoothScroll(document.getElementById('events'))"><div class="code-tri"></div><div class="code-nav"><p>Events</p></div></i></a></li>
+        <li><i class="fa fa-code fa-2x" onclick="smoothScroll(document.getElementById('past'))" ><div class="code-tri"></div><div class="code-nav"><p>Past Projects</p></div></i></a></li>
+        <li><i class="fa fa-star fa-2x" onclick="smoothScroll(document.getElementById('sponsors'))"><div class="code-tri"></div><div class="code-nav"><p>Sponsorship</p></div></i></a></li>
+        <li><i class="fa fa-pencil-square-o fa-2x" onclick="smoothScroll(document.getElementById('register'))"><div class="code-tri"></div><div class="code-nav"><p>Register</p></div></i></a></li>
+        <li><i class="fa fa-envelope-o fa-2x" onclick="smoothScroll(document.getElementById('contact'))"><div class="code-tri"></div><div class="code-nav"><p>Contact</p></div></i></a></li>
     </ul>
 </div>
 

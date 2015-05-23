@@ -29,12 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="circleHead">
-            <div class="circle">
-                <h1>The Team</h1>
-            </div>
-        </div>
-        <div class="container-fluid">
+              <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 one">
                 <span class="text-content">
@@ -268,11 +263,11 @@
             </div>
         </div>
 
-        <div id="register">
-            <?php include "project.php" ?>
-        </div>
+      <!--  <div id="register">
+            <?php //include "project.php" ?>
+        </div> -->
 
-        <div id="contact">
+        <div id="contact"> 
 
             <?php include "contact.php" ?>
         </div>
@@ -280,5 +275,28 @@
 
     </div>
 </div>
-
+<script>
+window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+    
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
 <?php include "templates/include/footer.php" ?>
