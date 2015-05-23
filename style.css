@@ -7,7 +7,7 @@ body {
 }
 
 i {
-    color: #8DC63F;
+    color: #FFFFFF;
 }
 
 #myCarousel {
@@ -484,114 +484,12 @@ tr:nth-child(even) {
 /*-------------------------------------------
 NAV BAR boxes
 --------------------------------------------*/
-.home-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-}
-
-.home-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-}
-
-.home-nav p {
-    margin-top: 5px;
-}
-
-.fa-home:hover .home-tri{
-    display: inline-block;
-}
-.fa-home:hover .home-nav{
-    display: inline-block;
-}
-
-
-.info-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-}
-
-.info-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-}
-
-.info-nav p {
-    margin-top: 5px;
-}
-
-.fa-info-circle:hover .info-tri{
-    display: inline-block;
-}
-.fa-info-circle:hover .info-nav{
-    display: inline-block;
-}
-
-
-.cal-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-}
-
-.cal-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-}
-
-.cal-nav p {
-    margin-top: 5px;
-}
-
-.fa-calendar:hover .cal-tri{
-    display: inline-block;
-}
-.fa-calendar:hover .cal-nav{
-    display: inline-block;
-}
-
-
 .code-tri {
     position: fixed;
     margin: 5px 0 0 20px;
     width: 0;
     height: 0;
-    border-right: 12px solid #8dc63f;
+    border-right: 12px solid #454545;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     display: none;
@@ -599,12 +497,12 @@ NAV BAR boxes
 
 .code-nav {
     font-size: 75%;
-    color: #454545;
+    color: #FFFFF;
     position: fixed;
     margin: 0 0 0 30px;
     width: 125px;
     height: 30px;
-    background-color: #8dc63f;
+    background-color: #454545;
     display: none;
 }
 
@@ -612,115 +510,55 @@ NAV BAR boxes
     margin-top: 5px;
 }
 
-.fa-code:hover .code-tri{
+
+
+.fa-home:hover .code-nav{
+    display: inline-block;
+}
+.fa-home:hover .code-tri{
+    display: inline-block;
+}
+
+.fa-info-circle:hover .code-nav{
+    display: inline-block;
+}
+.fa-info-circle:hover .code-tri{
+    display: inline-block;
+}
+
+.fa-calendar:hover .code-tri{
+    display: inline-block;
+}
+.fa-calendar:hover .code-nav{
+    display: inline-block;
+}
+
+
+.fa-code:hover .code-trii{
     display: inline-block;
 }
 .fa-code:hover .code-nav{
     display: inline-block;
 }
 
-
-.star-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-}
-
-.star-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-}
-
-.star-nav p {
-    margin-top: 5px;
-}
-
-.fa-star:hover .star-tri{
+.fa-star:hover .code-tri{
     display: inline-block;
 }
-.fa-star:hover .star-nav{
+.fa-star:hover .code-nav{
     display: inline-block;
 }
 
-
-
-.pen-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-}
-
-.pen-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-}
-
-.pen-nav p {
-    margin-top: 5px;
-}
-
-.fa-pencil-square-o:hover .pen-tri{
+.fa-pencil-square-o:hover .code-tri{
     display: inline-block;
 }
-.fa-pencil-square-o:hover .pen-nav{
+.fa-pencil-square-o:hover .code-nav{
     display: inline-block;
 }
 
-
-.env-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #8dc63f;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-    z-index:5;
-}
-
-.env-nav {
-    font-size: 75%;
-    color: #454545;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #8dc63f;
-    display: none;
-    z-index:5;
-}
-
-.env-nav p {
-    margin-top: 5px;
-}
-
-.fa-envelope-o:hover .env-tri{
+.fa-envelope-o:hover .code-tri{
     display: inline-block;
 }
-.fa-envelope-o:hover .env-nav{
+.fa-envelope-o:hover .code-nav{
     display: inline-block;
 }
 
@@ -851,5 +689,23 @@ li{
     text-align:right;
 }
 
+/*Scroll bar*/
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
 
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
 
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
