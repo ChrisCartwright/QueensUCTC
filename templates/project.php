@@ -80,7 +80,7 @@
         </div>
     </div>-->
 
-    <form action="admin.php" method="post">
+    <form id="form1" action="admin.php" method="post">
 
 <ul>
 
