@@ -7,7 +7,7 @@ body {
 }
 
 i {
-    color: #454545;
+    color: #8DC63F;
 }
 
 #myCarousel {
@@ -264,7 +264,14 @@ span.text-content span h3 {
     position: fixed;
     width: 65px;
     height: 100%;
-    background-color: #8dc63f;
+  background: rgba(69,69,69,1);
+background: -moz-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(69,69,69,1)), color-stop(51%, rgba(112,112,112,1)), color-stop(100%, rgba(69,69,69,1)));
+background: -webkit-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
+background: -o-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
+background: -ms-linear-gradient(left, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
+background: linear-gradient(to right, rgba(69,69,69,1) 0%, rgba(112,112,112,1) 51%, rgba(69,69,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#454545', GradientType=1 );
     text-align: center;
     z-index: 5;
 }
@@ -295,8 +302,8 @@ span.text-content span h3 {
 
 #logo{
 bottom:15vh;
-left:;
-position:fixed;
+left:10vw;
+position:absolute;
 }
 
 span h2 {
