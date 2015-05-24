@@ -40,6 +40,10 @@ body {
 	overflow-x:hidden;
 }
 
+body #contact {
+    text-align: center;
+}
+
 body h1 {
     font-family: lobster;
     font-size: 7vh;
@@ -63,14 +67,17 @@ body p{
 
 body span p {
     font-size: 2vh;
+    color: white;
 }
 
 body span h2 {
     font-size: 3vh;
+    color: white;
 }
 
 body span h3 {
     font-size: 2.5vh;
+    color:white;
 }
 
 i {
@@ -212,7 +219,7 @@ h1 span{
 
 #contact {
     width: 100%;
-    margin: 0 auto;
+    padding: 25px 50px 50px 75px;
     height: auto;
     min-height: 100vh;
     background: rgba(118,163,203,1);
@@ -459,6 +466,7 @@ span.text-content span h3 {
 
 
 #footer {
+    text-align: center;
     background-color: #454545;
     margin-top: 0px;
     margin-left: 0px;
@@ -635,44 +643,61 @@ NAV BAR boxes
     display: inline-block;
 }
 
-
 #form2{
-    margin: 100px 0 100px 0;
-    display: inline-block;
-    color:#fff;
-    width:40vw;
-    text-align: center;
+    margin: 0;
+    width:30vw;
+    display: inline!important;
 }
 
-#form2 h3 span{
-    display:block;
-    padding:10px 20px;
+#form2 label {
+    font-size: 125%;
 }
+
 #form2 legend{display:none;}
 
+.form-inline {
+    display: inline-block;
+
+}
+
 #form2 p{
-    margin:.5em 20px;
+    margin: 10px;
     text-align: left;
 }
-#form2 label{
-    display: block;
-    margin-left: 0;
-    text-align: left;
-}
+
 #form2 input, #form2 textarea{
     width:100%;
     border:1px solid #111;
     background-color: #BCBDBD;
-    color:#454545;
+    color: black;
 }
-#form2 textarea{
-    height: 10vh;
+#form2 textarea {
+    vertical-align: middle;
+    height: 24vh;
     overflow:auto;
 }
 
 #form2 input {
-    height: 4vh;
+    height: 6vh;
 }
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+    opacity: 0.5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+    opacity: 0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+    opacity: 0.5;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    black;
+    opacity: 0.5;
+}
+
 
 
 #form1{
