@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" >
 
 
@@ -15,7 +17,7 @@
 
 </head>
 <body>
-
+<!--
 <div class="vcontainer">
     <ul class="vnavbar">
 
@@ -27,5 +29,8 @@
         <li><i class="fa fa-pencil-square-o fa-2x" onclick="smoothScroll(document.getElementById('register'))"><div class="code-tri"></div><div class="code-nav"><p>Register</p></div></i></a></li>
         <li><i class="fa fa-envelope-o fa-2x" onclick="smoothScroll(document.getElementById('contact'))"><div class="code-tri"></div><div class="code-nav"><p>Contact</p></div></i></a></li>
     </ul>
-</div>
+</div>-->
+
+
+
 
