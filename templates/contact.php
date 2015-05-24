@@ -1,7 +1,6 @@
 
 
 <form id="form2" action="send.php" method="post">
-    <h3><span>Contact Us</span></h3>
     <fieldset><legend>Contact form</legend>
         <p class="first">
             <label for="firstName">First Name</label>

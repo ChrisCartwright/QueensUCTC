@@ -35,7 +35,7 @@ body {
     margin: 0;
     color: black;
     font-family: Cabin, Verdana, Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
    background-color:#BCBDBD;
 	overflow-x:hidden;
 }
@@ -43,11 +43,34 @@ body {
 body h1 {
     font-family: lobster;
     font-size: 7vh;
+    color: #454545;
+}
+body h2 {
+    font-size: 4vh;
+    color: #454545;
+
+}
+body h3 {
+    font-size: 3vh;
+    color: #454545;
+    color: #454545;
 }
 
 body p{
-    font-family: Cabin;
+    font-size: 2.5vh;
+    color: #454545;
+}
+
+body span p {
+    font-size: 2vh;
+}
+
+body span h2 {
     font-size: 3vh;
+}
+
+body span h3 {
+    font-size: 2.5vh;
 }
 
 i {
@@ -77,6 +100,7 @@ p span {
     min-height: 100vh;
     height: auto;
     margin: 0;
+    text-align: center;
 }
 
 .navbar {
@@ -98,6 +122,7 @@ p span {
 }
 .jumbotron p {
     font-family: lobster;
+    color: black;
     font-size: 15vh;
     position: relative;
     top: 50%;
@@ -130,12 +155,10 @@ ul {
 
 .aboutHead {
     position: relative;
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 50px 75px;
     width: 100%;
     min-height: 100vh;
     height: auto;
-    color: #454545;
-    font-size: large;
     background: rgba(255,153,106,1);
     background: -moz-linear-gradient(top, rgba(255,153,106,1) 0%, rgba(229,119,68,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,153,106,1)), color-stop(100%, rgba(229,119,68,1)));
@@ -146,10 +169,6 @@ ul {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff996a', endColorstr='#e57744', GradientType=0 );
 }
 
-.aboutHead h1 {
-    float: left;
-    padding: 0px 0 30px 30px;
-}
 h1 span{
     color: #8dc63f;
 }
@@ -174,7 +193,6 @@ h1 span{
 }
 
 .col-md-8  {
-    color: #BCBDBD;
     position: relative;
     top: 50%;
 }
@@ -208,13 +226,12 @@ h1 span{
 }
 
 #events .container {
-    top:50%;
-    left:50%;
+
     min-height: 100vh;
     height: auto;
-    padding: 50px;
+    padding: 25px 50px 50px 75px;
     width:100%;
-    text-align: center;
+    text-align: left;
     background: rgba(255,220,106,1);
     background: -moz-linear-gradient(45deg, rgba(255,220,106,1) 0%, rgba(229,191,68,1) 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,220,106,1)), color-stop(100%, rgba(229,191,68,1)));
@@ -225,14 +242,12 @@ h1 span{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdc6a', endColorstr='#e5bf44', GradientType=1 );
 }
 
-#events h1 {
-    float:left;
-}
 
 #sponsors .container {
 
-    padding: 25px 50px 50px 50px;
-    height: 100vh;
+    padding: 25px 50px 50px 75px;
+    min-height: 100vh;
+    height: auto;
     width:100%;
     background: rgba(255,153,106,1);
     background: -moz-linear-gradient(top, rgba(255,153,106,1) 0%, rgba(229,119,68,1) 100%);
@@ -242,10 +257,9 @@ h1 span{
     background: -ms-linear-gradient(top, rgba(255,153,106,1) 0%, rgba(229,119,68,1) 100%);
     background: linear-gradient(to bottom, rgba(255,153,106,1) 0%, rgba(229,119,68,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff996a', endColorstr='#e57744', GradientType=0 );
-}
-#sponsors h1 {
     text-align: left;
 }
+
 
 
 .team-head {
@@ -360,7 +374,6 @@ span.text-content span h3 {
     background-position: 50%;
     background-repeat: no-repeat;
     height: 33vh;
-    font-size: 50%;
 }
 
 .col-md-4.two {
@@ -464,9 +477,6 @@ h1 {
 }
 
 h1.light {
-    color: #BCBDBD;
-}
-h3 {
     color: #BCBDBD;
 }
 
@@ -633,20 +643,10 @@ NAV BAR boxes
     width:40vw;
     text-align: center;
 }
-#form2 h3{
-    margin:0;
-    background-color: #8dc63f;
-    color: #454545;
-    font-size:20px;
-    border-bottom:none;
-}
+
 #form2 h3 span{
     display:block;
     padding:10px 20px;
-}
-#form2 fieldset{
-    background:#454545;
-    padding-bottom:1em;
 }
 #form2 legend{display:none;}
 

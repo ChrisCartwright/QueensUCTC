@@ -165,25 +165,17 @@
             <h1>Events<span>.</span></h1>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>First Event</h2>
+                    <h2>Web Basics</h2>
                     <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                    <p>Here we will have a nice description of the first event. It will go over what to bring
-                        and what skills are going to be taught. It will talk about how this will help with the code
-                        jam and what type of person it will be most beneficial to</p>
+                    <p>The first workshop will be an introduction to web development. We will go over the basics
+                    of HTML, CSS and JavaScript. We will also introduce some frameworks like Bootstrap. By the
+                    end of this session you will be able to create a basic web site. This is one of
+                    the most important sessions for people new to web development.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Second Event</h2>
-                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                    <p>Here we will have a nice description of the first event. It will go over what to bring
-                        and what skills are going to be taught. It will talk about how this will help with the code
-                        jam and what type of person it will be most beneficial to</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Third Event</h2>
+                    <h2>PHP, Databases and Servers</h2>
                     <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
                     <p>Here we will have a nice description of the first event. It will go over what to bring
                         and what skills are going to be taught. It will talk about how this will help with the code
@@ -241,7 +233,9 @@
 
         <div id="sponsors">
             <div class="container">
+                <div class="row">
                 <h1>Sponsorship<span>.</span></h1>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <h3>This years sponsors</h3>
@@ -253,19 +247,19 @@
                         <img src="images/koala.jpg" height="100" width="150"/>
                     </div>
                     <div class="col-md-8">
-                    <span>
+
                         <p>We have two levels of sponsorship for companies interested in supporting the success of Code the Change:</p>
 
-                        <p>Silver – $250 – At the silver level, your company logo will be featured in all promotional material for
+                        <p><strong>Silver</strong> – $250 – At the silver level, your company logo will be featured in all promotional material for
                             Code Jam 2015, including the event itinerary. Your company will also be identified during our lunch
                             and dinner breaks. You also have the option to contribute one company logo’d item in the participant packages.</p>
-                        <p>Gold – $500 – At the gold level, your logo will be featured in all promotional material, including the event
+                        <p><strong>Gold</strong> – $500 – At the gold level, your logo will be featured in all promotional material, including the event
                             itinerary, large sized posters at the event and our promotional video that will be shown to hundreds of
                             engineering, computer science, and mathematics students. You will also have access to the full day event,
                             providing your company with a unique and exclusive opportunity to connect with some of Canada’s brightest
                             young programming talent.</p>
                             <p>If you are interested in providing financial support and/or sending a recruiter to the Code Jam, please email us at sponsorship@queenscodethechange.com for more information. Limited sponsorships are available, and any companies interested in sending a recruiter or company representative must confirm attendance by November 30th, 2014.</p>
-                    </span>
+
                     </div>
 
                 </div>
@@ -276,8 +270,10 @@
             <?php //include "project.php" ?>
         </div> -->
 
-        <div id="contact"> 
-
+        <div id="contact">
+            <div class="row">
+                <h1>Contact Us<span>.</span></h1>
+            </div>
             <?php include "contact.php" ?>
         </div>
 
