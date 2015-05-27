@@ -36,7 +36,7 @@ body {
     color: black;
     font-family: Cabin, Verdana, Arial, Helvetica, sans-serif;
     text-align: left;
-   background-color:#BCBDBD;
+	background-color:#BCBDBD;
 	overflow-x:hidden;
 }
 
@@ -50,7 +50,8 @@ body h1 {
     color: #454545;
 }
 body h2 {
-    font-size: 4vh;
+	font-family: lobster;
+    font-size: 3vh;
     color: #454545;
 
 }
@@ -80,13 +81,6 @@ body span h3 {
     color:white;
 }
 
-i {
-
-    color: rgba(210, 94,145,1)
-	cursor: pointer; 
-
-}
-
 p span {
     color: #8dc63f;
 }
@@ -110,23 +104,77 @@ p span {
     text-align: center;
 }
 
-.navbar {
-    list-style: none;
-    padding: 10px;
-    margin: 10px;
+
+
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 12vh;
+	background: #fff;
+	list-style: none;
+	padding: 15px;
+    margin: 0;
 }
 
-.navbar a {
-    text-decoration: none;
+nav li {
+	font-size: 140%;
+	color: black;
+	display: inline;
+	padding: 2vh 1vw;
+    margin: 10px 5vw 5vw 10px;
+	border-radius: 10px;
+	cursor:pointer;
 }
-.navbar li {
-    font-size: 140%;
-    color: black;
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+
+
+
+nav li a {
+	 text-decoration: none;
+	 font-family: lobster;
+	 color:inherit;
 }
+
+#ctclogo{
+height:8vh;
+width:10vw;
+
+
+}
+
+a:hover {
+color:inherit;
+text-decoration: none;
+}
+
+.logo:hover{
+background: none;
+}
+
+.logo{
+padding: none;
+margin: none;
+}
+
+
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 12vh; 
+	z-index: 1;
+}
+
+
+nav  li:hover {
+    background-color: #126560;
+}
+
+
+nav ul {
+    list-style-type: none;}
+
+	
 .jumbotron p {
     font-family: lobster;
     color: black;
@@ -136,14 +184,7 @@ p span {
     transform: translateY(50%);
 }
 
-.navbar .hover li:hover {
-    background-color: #126560;
-}
 
-
-.navbar ul {
-    list-style-type: none;
-}
 
 
 #myCarousel {
@@ -162,9 +203,9 @@ ul {
 
 .aboutHead {
     position: relative;
-    padding: 25px 50px 50px 75px;
+    padding: 15vh 50px 50px 75px;
     width: 100%;
-    min-height: 100vh;
+    min-height: 115vh;
     height: auto;
     background: rgba(255,153,106,1);
     background: -moz-linear-gradient(top, rgba(255,153,106,1) 0%, rgba(229,119,68,1) 100%);
@@ -209,13 +250,6 @@ h1 span{
     padding: 50px;
 }
 
-.info-circle {
-    height: 50px;
-    width: 100px;
-    background-color: blue;
-    display: none;
-}
-
 
 #contact {
     margin: 0;
@@ -235,9 +269,9 @@ h1 span{
 
 #events .container {
 
-    min-height: 100vh;
+    min-height: 115vh;
     height: auto;
-    padding: 25px 50px 50px 75px;
+    padding: 15vh 50px 50px 75px;
     width:100%;
     text-align: left;
     background: rgba(255,220,106,1);
@@ -269,37 +303,9 @@ h1 span{
     text-align: left;
 }
 
-
-
-.team-head {
-    height: 10vh;
-}
-.circle h1 {
-    font-size: 500%;
-    color: #BCBDBD;
-}
-
-
-.circleHead .circle {
-
-    padding-top: 20px;
-    text-align: center;
-    left:0;
-    right:0;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 0;
-    position: absolute;
-    width: 700px;
-    height: 150px;
-    border-radius: 50% / 100%;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-image: url('images/code.jpg');
-    background-attachment: fixed;
-}
 .wrapper {
     padding-left: 0px;
+	
 }
 
 span.text-content {
@@ -431,35 +437,6 @@ span.text-content span h3 {
 }
 
 
-
-
-.vcontainer {
-    position: fixed;
-    width: 65px;
-    height: 100%;
-    background: rgba(25,135,62,1);
-    background: -moz-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,135,62,1)), color-stop(50%, rgba(81,179,113,1)), color-stop(100%, rgba(25,133,61,1)));
-    background: -webkit-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
-    background: -o-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
-    background: -ms-linear-gradient(left, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
-    background: linear-gradient(to right, rgba(25,135,62,1) 0%, rgba(81,179,113,1) 50%, rgba(25,133,61,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19873e', endColorstr='#19853d', GradientType=1 );
-    text-align: center;
-    z-index: 5;
-
-}
-
-.vnavbar a {
-    margin: auto;
-}
-
-.vnavbar li {
-    margin-top: 20px;
-}
-
-
-
 #footer {
     text-align: center;
     background-color: #454545;
@@ -555,88 +532,6 @@ tr:nth-child(even) {
 /*-------------------------------------------
 NAV BAR boxes
 --------------------------------------------*/
-.code-tri {
-    position: fixed;
-    margin: 5px 0 0 20px;
-    width: 0;
-    height: 0;
-    border-right: 12px solid #454545;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    display: none;
-
-}
-
-.code-nav {
-
-    font-size: 75%;
-    color: #FFFFF;
-    position: fixed;
-    margin: 0 0 0 30px;
-    width: 125px;
-    height: 30px;
-    background-color: #454545;
-    display: none;
-	border-radius: 10px;
-}
-
-.code-nav p {
-    margin-top: 5px;
-	font-family: Arial;
-	font-size: 17px;
-}
-
-
-
-.fa-home:hover .code-nav{
-    display: inline-block;
-}
-.fa-home:hover .code-tri{
-    display: inline-block;
-}
-
-.fa-info-circle:hover .code-nav{
-    display: inline-block;
-}
-.fa-info-circle:hover .code-tri{
-    display: inline-block;
-}
-
-.fa-calendar:hover .code-tri{
-    display: inline-block;
-}
-.fa-calendar:hover .code-nav{
-    display: inline-block;
-}
-
-
-.fa-code:hover .code-tri{
-    display: inline-block;
-}
-.fa-code:hover .code-nav{
-    display: inline-block;
-}
-
-.fa-star:hover .code-tri{
-    display: inline-block;
-}
-.fa-star:hover .code-nav{
-    display: inline-block;
-}
-
-.fa-pencil-square-o:hover .code-tri{
-    display: inline-block;
-}
-.fa-pencil-square-o:hover .code-nav{
-    display: inline-block;
-}
-
-.fa-envelope-o:hover .code-tri{
-    display: inline-block;
-}
-.fa-envelope-o:hover .code-nav{
-    display: inline-block;
-}
 
 #form2{
     margin: 0;
@@ -756,6 +651,7 @@ NAV BAR boxes
 {
 	width: 12px;
 	background-color: #F5F5F5;
+	height:88vh;
 }
 
 ::-webkit-scrollbar-thumb

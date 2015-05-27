@@ -1,17 +1,19 @@
 <?php include "templates/include/vheader.php" ?>
-<div class="wrapper">
-    <div class="jumbotron">
-        <div class="navbar-container">
-            <ul class="navbar">
-                <a href="#home"><li><img id="logo" src="images/ctcLogo1.png"/></li></a>
-                <a class="hover" href="#about"><li>About</li></a>
-                <a class="hover" href="#events"><li>Events</li></a>
-                <a class="hover" href="#past"><li>Past Projects</li></a>
-                <a class="hover" href="#sponsors"> <li>Sponsorship</li></a>
-                <a class="hover" href="#register"><li>Register</li></a>
-                <a class="hover" href="#contact"><li>Contact Us</li></a>
-            </ul>
-        </div>
+
+    
+      <div class="wrapper">  
+		<nav>
+		<ul>
+			<li class="logo"><a href="#home" onclick="smoothScroll(document.getElementById('home'))"><img id="ctclogo" src="images/ctcLogo1.png"/></a></li>
+			<li><a href="#aboutHead" onclick="smoothScroll(document.getElementById('aboutHead'))">About</a></li>
+			<li><a href="#events" onclick="smoothScroll(document.getElementById('events'))">Events</a></li>
+			<li><a href="#past" onclick="smoothScroll(document.getElementById('past'))">Past Projects</a></li>
+			<li><a href="#sponsors"  onclick="smoothScroll(document.getElementById('sponsors'))">Sponsorship</a></li>
+			<li><a href="#register" onclick="smoothScroll(document.getElementById('register'))">Register</a></li>
+			<li><a href="#contact" onclick="smoothScroll(document.getElementById('contact'))">Contact</a></li>
+		</ul>
+	</nav>
+        <div class="jumbotron" id="home">
         <p>Coding for Social</p><p></p><p>Change<span>.</span></p>
     </div>
         <div class="aboutHead">
@@ -39,7 +41,7 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="exec">
             <div class="row">
                 <div class="col-md-4 one">
                 <span class="text-content">
@@ -274,9 +276,12 @@
             <div class="row">
                 <h1>Contact Us<span>.</span></h1>
             </div>
-            <?php include "contact.php" ?>
+             <div class="row">
+                    <div class="col-md-4">
+					<h2>Sponsorship Coordinators Email:</h2>
+					<h2>Project Coordinator Email:</h2>
         </div>
-
+</div>
 
     </div>
 </div>
@@ -304,4 +309,21 @@ window.smoothScroll = function(target) {
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
 </script>
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 70;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+
 <?php include "templates/include/footer.php" ?>
