@@ -130,33 +130,27 @@ nav {
 	height: 12vh;
 	background: #fff;
 	list-style: none;
-	padding: 15px;
-    margin: 0;
 }
 
 nav li {
-	font-size: 140%;
 	color: black;
-	display: inline;
-	padding: 2vh 1vw;
-    margin: 10px 5vw 5vw 10px;
+	display: inline-block;
+    padding: 2vh 1vw;
+    margin: 10px 2.5vw 10px 2.5vw;
 	border-radius: 10px;
 	cursor:pointer;
 }
 
-
-
-nav li a {
+nav a li {
 	 text-decoration: none;
 	 font-family: lobster;
-	 color:inherit;
+	 color:black;
+     font-size: 150%;
 }
 
 #ctclogo{
-height:8vh;
-width:10vw;
-
-
+    height:8vh;
+    width:10vw;
 }
 
 a:hover {
@@ -218,7 +212,7 @@ ul {
 }
 
 
-.aboutHead {
+#about {
     position: relative;
     padding: 15vh 50px 50px 75px;
     width: 100%;
@@ -268,11 +262,11 @@ h1 span{
 }
 
 
-#contact {
+#contact .container{
     width: 100%;
-    padding: 25px 50px 50px 75px;
+    padding: 15vh 50px 50px 75px;
     height: auto;
-    min-height: 100vh;
+    min-height: 115vh;
     background: rgba(118,163,203,1);
     background: -moz-linear-gradient(-45deg, rgba(118,163,203,1) 0%, rgba(73,101,125,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(118,163,203,1)), color-stop(100%, rgba(73,101,125,1)));
@@ -303,8 +297,8 @@ h1 span{
 
 #sponsors .container {
 
-    padding: 25px 50px 50px 75px;
-    min-height: 100vh;
+    padding: 15vh 50px 50px 75px;
+    min-height: 115vh;
     height: auto;
     width:100%;
     background: rgba(255,153,106,1);
