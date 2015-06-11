@@ -1,5 +1,21 @@
-<?php include "templates/include/vheader.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css" >
+
+
+
+    <title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
+
+
+
+</head>
+<body>
     
       <div class="wrapper">  
 		<nav>
@@ -197,27 +213,38 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-
-                        <div class="carousel-caption">
-
-                        </div>
+						<div class="projectInfo">
+						<h2>Kingston Youth Strategy</h2>
+						<p>Developed an interactive website that serves as an easily accessible hub for the youth of Kingston. The site allows for the easy creation of calendar events and blog posts that can be added by from multiple different organizations. The goal of this project was to give youth a place to be easily updated on events that are occurring in the community! Check it out here:</p>
+						</div>
+                        <img src="images/PastY2K.png" class="pastPhotos"/>
+                    </div>
+					<div class="item">
+					<div class="projectInfo">
+						<h2>EngLinks Tutors</h2>
+						<p>EngLinks is the academic support service of the Engineering Society of Queen’s University. They help engineering students succeed in their studies. EngLinks offers one-on-one tutoring, course-specific group workshops and online resources. Code the Change developed a web application for engineering students to request tutoring from qualified upper-years and be matched to their own tutor. </p>
+						</div>
+					<img src="images/PastEngLinks.png" class="pastPhotos"/>
                     </div>
                     <div class="item">
-                        <img src="images/koala.jpg" />
-                        <div class="carousel-caption">
-
-                        </div>
+					<div class="projectInfo">
+						<h2>The Food Bank</h2>
+						<p>Developed an interactive donation service where users are able to shop for a hamper full of non-perishable donations online in a virtual store and then donate the equivalent monetary value through the online donation portal. </p>
+						</div>
+                       <img src="images/PastFoodBank.png" class="pastPhotos"/>
                     </div>
-                    <div class="item">
-                        <img src="images/koala.jpg" />
-                        <div class="carousel-caption">
-
-                        </div>
+					<div class="item">
+					<div class="projectInfo">
+						<h2>Robogals</h2>
+						<p>This Code the Change project is created a website that engages and inspires girls in the Kingston area to pursue STEM careers. The website is also a tool to identify the supporters of Robogals Queen’s.</p>
+						</div>
+                        <img src="images/PastRobogals.png" class="pastPhotos"/>
                     </div>
                 </div>
 
@@ -229,9 +256,8 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div> <!-- Carousel -->
-
-
-        </div>
+</div>
+</div>
 
         <div id="sponsors">
             <div class="container">
