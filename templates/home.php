@@ -2,21 +2,18 @@
 <html lang="en">
 <head>
 
-    <<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css" >
-
-
-
+    <link rel="stylesheet" href="css/style.css" >
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
     <title><?php echo htmlspecialchars( $results['pageTitle'] )?></title>
-
-
-
 </head>
 <body>
-    
 <div class="wrapper">
 	<nav>
 		<ul>
@@ -179,28 +176,25 @@
     </div>
 
     <div id="events">
-        <div class="container">
-            <h1>Events<span>.</span></h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Web Basics</h2>
-                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                    <p>The first workshop will be an introduction to web development. We will go over the basics
-                    of HTML, CSS and JavaScript. We will also introduce some frameworks like Bootstrap. By the
-                    end of this session you will be able to create a basic web site. This is one of
-                    the most important sessions for people new to web development.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>PHP, Databases and Servers</h2>
-                    <h3>November 21st, 2015. 6:30pm-9:30pm in the JDUC room 341</h3>
-                    <p>Here we will have a nice description of the first event. It will go over what to bring
-                        and what skills are going to be taught. It will talk about how this will help with the code
-                        jam and what type of person it will be most beneficial to</p>
-                </div>
-            </div>
+         <div class="container">
+
+            <h1>The Code Jam<span>.</span></h1>
+	
+          <div class="row">
+                <div class="col-md-6">
+                    <h2>What?</h2>
+                    <p>Code The Change Queens hosts an annual Code Jam event, where students come together to use their programming and design skills to produce valuable digital tools and resources for non-profit organizations (NPO). Each group of students is led by “Project Manager” that has been paired with a specific NPO meaning the “Project Manager” has an in-depth understanding of the NPOs needs and can ensure that the tool is built to meet them. </p>
+               
+                    <h2>Why?</h2>
+                    <p>The tools and resources created during the Code Jam help drive NPO’s day to day operations and enable them to grow to serve the community better. Students that participate in the Code Jam utilize their programing and developer skills to solve real world problems while working in a team atmosphere.</p>
+					
+					<h2>Where?</h2>
+                    <p>The Code Jam is an annual twelve hour event during February or January, and is hosted at a venue on Queens Universities Campus in Kingston Ontario.</p>
+					</div>
+					<div class="col-md-6" id="eventsPhoto">
+					</div>
         </div>
+    </div>
     </div>
 
     <div id="past">
@@ -216,35 +210,36 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-<<<<<<< HEAD
-						<div class="projectInfo">
-						<h2>Kingston Youth Strategy</h2>
-						<p>Developed an interactive website that serves as an easily accessible hub for the youth of Kingston. The site allows for the easy creation of calendar events and blog posts that can be added by from multiple different organizations. The goal of this project was to give youth a place to be easily updated on events that are occurring in the community! Check it out here:</p>
-						</div>
-                        <img src="images/PastY2K.png" class="pastPhotos"/>
-=======
-                        <div class="carousel-caption">
 
-                        </div>
->>>>>>> origin/master
+						<div class="projectInfo">
+						<span><h2>Kingston Youth Strategy</h2></span>
+						<p>Developed an interactive website that serves as an easily accessible hub for the youth of Kingston. The site allows for the easy creation of calendar events and blog posts that can be added by from multiple different organizations. The goal of this project was to give youth a place to be easily updated on events that are occurring in the community! <br> <a href="http://kingstonyouth.ca/index.php">Check it out here</a></p> <p style="font-Style: italic; text-align: center;">"Code the Change produced a website that is professional, functional and tailored to our specific needs. The group went above and beyond our wish list."
+~ Kingston's Youth Strategy</p>
+</p>
+						
+						
+						
+						</div> 
+                        <img src="images/PastY2K.png" class="pastPhotos"/>
+
                     </div>
 					<div class="item">
 					<div class="projectInfo">
-						<h2>EngLinks Tutors</h2>
+						<span><h2>EngLinks Tutors</h2></span>
 						<p>EngLinks is the academic support service of the Engineering Society of Queen’s University. They help engineering students succeed in their studies. EngLinks offers one-on-one tutoring, course-specific group workshops and online resources. Code the Change developed a web application for engineering students to request tutoring from qualified upper-years and be matched to their own tutor. </p>
 						</div>
 					<img src="images/PastEngLinks.png" class="pastPhotos"/>
                     </div>
                     <div class="item">
 					<div class="projectInfo">
-						<h2>The Food Bank</h2>
+						<span><h2>The Food Bank</h2></span>
 						<p>Developed an interactive donation service where users are able to shop for a hamper full of non-perishable donations online in a virtual store and then donate the equivalent monetary value through the online donation portal. </p>
 						</div>
                        <img src="images/PastFoodBank.png" class="pastPhotos"/>
                     </div>
 					<div class="item">
 					<div class="projectInfo">
-						<h2>Robogals</h2>
+						<span><h2>Robogals</h2></span>
 						<p>This Code the Change project is created a website that engages and inspires girls in the Kingston area to pursue STEM careers. The website is also a tool to identify the supporters of Robogals Queen’s.</p>
 						</div>
                         <img src="images/PastRobogals.png" class="pastPhotos"/>
@@ -259,14 +254,10 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div> <!-- Carousel -->
-<<<<<<< HEAD
-</div>
-</div>
-=======
 
-        </div>
-    </div>
->>>>>>> origin/master
+</div>
+</div>
+
 
     <div id="sponsors">
         <div class="container">
@@ -275,11 +266,11 @@
                 <div class="col-md-4">
                     <h3>This years sponsors</h3>
                     <p></p>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                    <img src="images/koala.jpg" height="100" width="150"/>
+                    <img src="images/Sponsors/AMS.png" height="100" width="150"/>
+                    <img src="images/Sponsors/CFKA.jpg" height="100" width="150"/>
                     <p></p>
-                    <img src="images/koala.jpg" height="100" width="150"/>
-                    <img src="images/koala.jpg" height="100" width="150"/>
+                    <img src="images/Sponsors/Microsoft.jpg" height="100" width="150"/>
+                    <img src="images/Sponsors/Pizza.gif" height="100" width="150"/>
                 </div>
                 <div class="col-md-8">
                     <p>We have two levels of sponsorship for companies interested in supporting the success of Code the Change:</p>
@@ -316,6 +307,9 @@
 </div>
 
 <script>
+
+		
+
 window.smoothScroll = function(target) {
     var scrollContainer = target;
     do { //find scroll container
@@ -338,11 +332,9 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
-</script>
 
-<script type="text/javascript" src="jquery.js"></script>
 
-<script>
+
    $(document).ready(function(){
 	   $(window).bind('scroll', function() {
 	   var navHeight = $( window ).height() - 90;

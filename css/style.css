@@ -45,11 +45,13 @@ float:left;
 margin-left:5%;
 margin-top:7%;
 padding-left:75px;
+color: #ffffff;
 }
+
+
 
 body {
     margin: 0;
-    color: black;
     font-family: Cabin, Verdana, Arial, Helvetica, sans-serif;
     text-align: left;
 	background-color:#BCBDBD;
@@ -74,12 +76,10 @@ body h2 {
 body h3 {
     font-size: 3vh;
     color: #454545;
-    color: #454545;
 }
 
 body p{
     font-size: 2.5vh;
-    color: #454545;
 }
 
 body span p {
@@ -244,6 +244,7 @@ h1 span{
     background: -ms-linear-gradient(-45deg, rgba(118,163,203,1) 0%, rgba(73,101,125,1) 100%);
     background: linear-gradient(135deg, rgba(118,163,203,1) 0%, rgba(73,101,125,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76a3cb', endColorstr='#49657d', GradientType=1 );
+	color:white;
 }
 
 
@@ -256,10 +257,6 @@ h1 span{
     top: 50%;
 }
 
-
-#past h1 {
-    padding: 50px;
-}
 
 
 #contact .container{
@@ -386,7 +383,7 @@ span.text-content span h3 {
 
 
 .col-md-4.one {
-    background-image: url('images/Megan_Shipton_Events.jpg');
+    background-image: url('../images/Megan_Shipton_Events.jpg');
     background-size: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -394,32 +391,32 @@ span.text-content span h3 {
 }
 
 .col-md-4.two {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.three {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.four {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.five {
-    background-image: url('images/Danny_Patterson_Pres_2.jpg');
+    background-image: url('../images/Danny_Patterson_Pres_2.jpg');
     background-size: 100%;
     background-position: 0px 30%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.six {
-    background-image: url('images/Sommer_Shurbaji_Projects.JPG');
+    background-image: url('../images/Sommer_Shurbaji_Projects.JPG');
     background-size: 100%;
     background-position: 0px 35%;
     background-repeat: no-repeat;
@@ -427,19 +424,19 @@ span.text-content span h3 {
 }
 
 .col-md-4.seven {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.eight {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
 }
 .col-md-4.nine {
-    background-image: url('images/koala.jpg');
+    background-image: url('../images/koala.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 33vh;
@@ -458,7 +455,6 @@ span.text-content span h3 {
 
 span h2 {
     color: white;
-	font
 }
 
 h1 {
@@ -476,25 +472,9 @@ h1.light {
     line-height: 1.2em;
 }
 
-
-h2, h2 a {
-    color: black;
-}
-
 h2 a {
     text-decoration: none;
 }
-
-.form-info {
-    margin: 0;
-    padding:0;
-}
-
-.form-message {
-    margin: 0;
-    padding:0;
-}
-
 
 
 table {
@@ -539,115 +519,6 @@ tr:nth-child(even) {
 }
 
 
-/*-------------------------------------------
-NAV BAR boxes
---------------------------------------------*/
-
-#form2{
-    margin: 0;
-    width:30vw;
-    display: inline!important;
-}
-
-#form2 label {
-    font-size: 125%;
-}
-
-#form2 legend{display:none;}
-
-.form-inline {
-    display: inline-block;
-
-}
-
-#form2 p{
-    margin: 10px;
-    text-align: left;
-}
-
-#form2 input, #form2 textarea{
-    width:100%;
-    border:1px solid #111;
-    background-color: #BCBDBD;
-    color: black;
-}
-#form2 textarea {
-    vertical-align: middle;
-    height: 24vh;
-    overflow:auto;
-}
-
-#form2 input {
-    height: 6vh;
-}
-
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:    black;
-    opacity: 0.5;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    black;
-    opacity: 0.5;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    black;
-    opacity: 0.5;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    black;
-    opacity: 0.5;
-}
-
-
-
-#form1{
-    margin-top: 150px;
-    display: inline-block;
-    color:#fff;
-    width:40vw;
-    text-align: center;
-}
-#form1 h3{
-    margin:0;
-    background-color: #8dc63f;
-    color: #454545;
-    font-size:20px;
-    border-bottom:none;
-}
-#form1 h3 span{
-    display:block;
-    padding:10px 20px;
-}
-#form1 fieldset{
-    background:#454545;
-    padding-bottom:1em;
-}
-#form1 legend{display:none;}
-
-#form1 p{
-    margin:.5em 20px;
-    text-align: left;
-}
-#form1 label{
-    display: block;
-    margin-left: 0;
-    text-align: left;
-}
-#form1 input, #form1 textarea{
-    width:100%;
-    border:1px solid #111;
-    background-color: #BCBDBD;
-    color:#454545;
-}
-#form1 textarea{
-    height: 10vh;
-    overflow:auto;
-}
-
-#form1 input {
-    height: 4vh;
-}
-
 /*Scroll bar*/
 
 ::-webkit-scrollbar-track
@@ -671,69 +542,10 @@ NAV BAR boxes
 	background-color: #555;
 }
 
-
-/* CSS - Cascading Style Sheet */
-/* Palette color codes */
-/* Palette URL: http://paletton.com/#uid=72t0u0klPr8ciFchCv3pZnsttiF */
-
-/* Feel free to copy&paste color codes to your application */
-
-
-/* As hex codes */
-
-.color-primary-0 { color: #8DC63F }	/* Main Primary color */
-.color-primary-1 { color: #C9F094 }
-.color-primary-2 { color: #AEE366 }
-.color-primary-3 { color: #71AB20 }
-.color-primary-4 { color: #53880B }
-
-.color-secondary-1-0 { color: #329E57 }	/* Main Secondary color (1) */
-.color-secondary-1-1 { color: #80D09C }
-.color-secondary-1-2 { color: #51B573 }
-.color-secondary-1-3 { color: #1A893F }
-.color-secondary-1-4 { color: #096D2B }
-
-.color-secondary-2-0 { color: #D85C45 }	/* Main Secondary color (2) */
-.color-secondary-2-1 { color: #FFAC9D }
-.color-secondary-2-2 { color: #F7846F }
-.color-secondary-2-3 { color: #BB3B23 }
-.color-secondary-2-4 { color: #95210C }
-
-.color-complement-0 { color: #B73A71 }	/* Main Complement color */
-.color-complement-1 { color: #E48DB3 }
-.color-complement-2 { color: #D25E91 }
-.color-complement-3 { color: #9E1E56 }
-.color-complement-4 { color: #7E0A3D }
-
-
-
-/* As RGBa codes */
-
-.rgba-primary-0 { color: rgba(141,198, 63,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(201,240,148,1) }
-.rgba-primary-2 { color: rgba(174,227,102,1) }
-.rgba-primary-3 { color: rgba(113,171, 32,1) }
-.rgba-primary-4 { color: rgba( 83,136, 11,1) }
-
-.rgba-secondary-1-0 { color: rgba( 50,158, 87,1) }	/* Main Secondary color (1) */
-.rgba-secondary-1-1 { color: rgba(128,208,156,1) }
-.rgba-secondary-1-2 { color: rgba( 81,181,115,1) }
-.rgba-secondary-1-3 { color: rgba( 26,137, 63,1) }
-.rgba-secondary-1-4 { color: rgba(  9,109, 43,1) }
-
-.rgba-secondary-2-0 { color: rgba(216, 92, 69,1) }	/* Main Secondary color (2) */
-.rgba-secondary-2-1 { color: rgba(255,172,157,1) }
-.rgba-secondary-2-2 { color: rgba(247,132,111,1) }
-.rgba-secondary-2-3 { color: rgba(187, 59, 35,1) }
-.rgba-secondary-2-4 { color: rgba(149, 33, 12,1) }
-
-.rgba-complement-0 { color: rgba(183, 58,113,1) }	/* Main Complement color */
-.rgba-complement-1 { color: rgba(228,141,179,1) }
-.rgba-complement-2 { color: rgba(210, 94,145,1) }
-.rgba-complement-3 { color: rgba(158, 30, 86,1) }
-.rgba-complement-4 { color: rgba(126, 10, 61,1) }
-
-
-
-/* Generated by Paletton.com Â© 2002-2014 */
-/* http://paletton.com */
+#eventsPhoto
+{
+margin-top: -20vh; 
+background-image: url('../images/EventsCollage.png');
+min-height: 100vh;
+background-size: 100%;
+}
